@@ -30,20 +30,20 @@ export default function AccountPage() {
       <div className="card">
         <h3>Редактирование профиля</h3>
         <form className="form" onSubmit={(e)=> { e.preventDefault(); update({ name: e.target.name.value }) }}>
-          <label>Имя<input name="name" defaultValue={user.name} /></label>
-          <label>Смена пароля<input name="password" type="password" placeholder="Новый пароль" /></label>
+          <label>Имя <input name="name" defaultValue={user.name} /></label>
+          <label>Смена пароля <input name="password" type="password" placeholder="Новый пароль" /></label>
           <button className="btn btn--primary">Сохранить</button>
         </form>
       </div>
 
       <div className="card">
         <h3>Избранное</h3>
-        <div className="muted">Список избранных скоро появится.</div>
+        <div className="muted">В разработке.</div>
       </div>
 
       <div className="card">
         <h3>История заказов</h3>
-        <div className="muted">Для демо заказы создаются при оформлении в корзине (JSON Server).</div>
+        <div className="muted">Пока здесь пусто.</div>
       </div>
     </div>
   )
