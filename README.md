@@ -23,9 +23,7 @@ npm run dev
 - Аккаунт: демо-авторизация, редактирование профиля.
 - Тема: светлая/тёмная.
 
-## Структура
-См. дерево в ТЗ. Все файлы включены выше. При необходимости расширяйте `db.json`.
+## Ссылки
+[Figma макет](https://www.figma.com/design/XDPGRJKO4FnBw0zNe6M7QB/Untitled?node-id=0-1&t=qJGKXvTlwPqiGF4P-1)
 
-## Примечания
-- JSON Server поддерживает параметры `_page`, `_limit`, `_sort`, `_order`, `q`, `price_gte`, `price_lte`, повторяющиеся `brandId`/`categoryId`.
-- Для продвинутых фильтров добавляйте индексы и поля в `db.json`. Можно имитировать отзывы и избранное.
+[GitHub репозиторий](https://github.com/qwedu22/AvtoShopProject)
