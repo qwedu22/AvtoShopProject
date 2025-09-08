@@ -1,0 +1,16 @@
+:root {
+    --bg: #0f1115;
+    --card: #151923;
+    --text: #e6e6e6;
+    --muted: #a1a6b0;
+    --primary: #ff6b00;
+    --border: #23293a;
+  }
+  :root[data-theme="light"] {
+    --bg: #f6f8fb;
+    --card: #ffffff;
+    --text: #0f1115;
+    --muted: #5b606b;
+    --primary: #ff6b00;
+    --border: #e5e9f2;
+  }

@@ -1,0 +1,321 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Тормозной диск Brembo 09.4939.11",
+      "categoryId": 1,
+      "brandId": 1,
+      "price": 79.9,
+      "rating": 4.7,
+      "stock": 25,
+      "sku": "BR-09493911",
+      "images": [
+        "/images/products/breaks.jpg"
+      ],
+      "specs": {
+        "Материал": "Чугун",
+        "Диаметр": "280 мм",
+        "Толщина": "22 мм"
+      },
+      "description": "Высокопроизводительный тормозной диск от Brembo для стабильного торможения.",
+      "reviews": [
+        {
+          "author": "Иван",
+          "rating": 5,
+          "text": "Отличные диски, тормозят как надо"
+        },
+        {
+          "author": "Анна",
+          "rating": 4,
+          "text": "Хорошее качество за свои деньги"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Масляный фильтр Mann W 712/52",
+      "categoryId": 2,
+      "brandId": 2,
+      "price": 12.5,
+      "rating": 4.5,
+      "stock": 120,
+      "sku": "MN-W71252",
+      "images": [
+        "/images/products/oilfil.jpg"
+      ],
+      "specs": {
+        "Тип": "Масляный",
+        "Высота": "76 мм",
+        "Резьба": "M20x1.5"
+      },
+      "description": "Фильтр очистки масла MANN – стандарт качества для двигателя.",
+      "reviews": []
+    },
+    {
+      "id": 3,
+      "title": "Свеча зажигания NGK BKR6E",
+      "categoryId": 3,
+      "brandId": 3,
+      "price": 6.9,
+      "rating": 4.6,
+      "stock": 300,
+      "sku": "NGK-BKR6E",
+      "images": [
+        "/images/products/candle.png"
+      ],
+      "specs": {
+        "Тип": "Никелевая",
+        "Зазор": "0.8 мм"
+      },
+      "description": "Надёжная свеча зажигания NGK для устойчивой искры.",
+      "reviews": []
+    },
+    {
+      "id": 4,
+      "title": "Аккумулятор Varta Blue Dynamic 60Ah",
+      "categoryId": 4,
+      "brandId": 4,
+      "price": 119,
+      "rating": 4.8,
+      "stock": 0,
+      "sku": "VARTA-60AH",
+      "images": [
+        "/images/products/battery.jpg"
+      ],
+      "specs": {
+        "Ёмкость": "60 Ah",
+        "Пусковой ток": "540 A"
+      },
+      "description": "Надежный аккумулятор для уверенного запуска зимой и летом.",
+      "reviews": []
+    },
+    {
+      "id": 5,
+      "title": "Щётки стеклоочистителя Bosch Aerotwin 600мм",
+      "categoryId": 5,
+      "brandId": 5,
+      "price": 19.9,
+      "rating": 4.4,
+      "stock": 80,
+      "sku": "BOSCH-AT600",
+      "images": [
+        "/images/products/cleaner.jpg"
+      ],
+      "specs": {
+        "Длина": "600 мм",
+        "Тип": "Бескаркасные"
+      },
+      "description": "Бескаркасные щётки с равномерным прижимом и тихой работой.",
+      "reviews": []
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Тормозная система"
+    },
+    {
+      "id": 2,
+      "name": "Фильтры"
+    },
+    {
+      "id": 3,
+      "name": "Зажигание"
+    },
+    {
+      "id": 4,
+      "name": "Аккумуляторы"
+    },
+    {
+      "id": 5,
+      "name": "Щётки и стеклоомыватели"
+    },
+    {
+      "id": 6,
+      "name": "Подвеска"
+    },
+    {
+      "id": 7,
+      "name": "Двигатель"
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Brembo"
+    },
+    {
+      "id": 2,
+      "name": "MANN"
+    },
+    {
+      "id": 3,
+      "name": "NGK"
+    },
+    {
+      "id": 4,
+      "name": "Varta"
+    },
+    {
+      "id": 5,
+      "name": "Bosch"
+    }
+  ],
+  "orders": [
+    {
+      "userId": 1,
+      "items": [
+        {
+          "id": 1,
+          "title": "Тормозной диск Brembo 09.4939.11",
+          "price": 79.9,
+          "images": [
+            "/images/products/breaks.jpg"
+          ],
+          "qty": 1
+        },
+        {
+          "id": 3,
+          "title": "Свеча зажигания NGK BKR6E",
+          "price": 6.9,
+          "images": [
+            "/images/products/breaks.jpg"
+          ],
+          "qty": 1
+        },
+        {
+          "id": 2,
+          "title": "Масляный фильтр Mann W 712/52",
+          "price": 12.5,
+          "images": [
+            "/images/products/breaks.jpg"
+          ],
+          "qty": 1
+        }
+      ],
+      "coupon": null,
+      "subtotal": 99.30000000000001,
+      "discount": 0,
+      "total": 99.30000000000001,
+      "createdAt": "2025-09-07T19:22:34.370Z",
+      "status": "created",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "items": [
+        {
+          "id": 1,
+          "title": "Тормозной диск Brembo 09.4939.11",
+          "price": 79.9,
+          "images": [
+            "/images/products/breaks.jpg"
+          ],
+          "qty": 102
+        }
+      ],
+      "coupon": null,
+      "subtotal": 8149.8,
+      "discount": 0,
+      "total": 8149.8,
+      "createdAt": "2025-09-08T15:38:40.226Z",
+      "status": "created",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "items": [
+        {
+          "id": 5,
+          "title": "Щётки стеклоочистителя Bosch Aerotwin 600мм",
+          "price": 19.9,
+          "images": [
+            "/images/products/cleaner.jpg"
+          ],
+          "qty": 1
+        },
+        {
+          "id": 3,
+          "title": "Свеча зажигания NGK BKR6E",
+          "price": 6.9,
+          "images": [
+            "/images/products/candle.png"
+          ],
+          "qty": 1
+        },
+        {
+          "id": 2,
+          "title": "Масляный фильтр Mann W 712/52",
+          "price": 12.5,
+          "images": [
+            "/images/products/oilfil.jpg"
+          ],
+          "qty": 1
+        },
+        {
+          "id": 1,
+          "title": "Тормозной диск Brembo 09.4939.11",
+          "price": 79.9,
+          "images": [
+            "/images/products/breaks.jpg"
+          ],
+          "qty": 1
+        }
+      ],
+      "coupon": null,
+      "subtotal": 119.2,
+      "discount": 0,
+      "total": 119.2,
+      "createdAt": "2025-09-08T15:48:47.008Z",
+      "status": "created",
+      "id": 3
+    },
+    {
+      "userId": null,
+      "items": [
+        {
+          "id": 5,
+          "title": "Щётки стеклоочистителя Bosch Aerotwin 600мм",
+          "price": 19.9,
+          "images": [
+            "/images/products/cleaner.jpg"
+          ],
+          "qty": 1
+        },
+        {
+          "id": 3,
+          "title": "Свеча зажигания NGK BKR6E",
+          "price": 6.9,
+          "images": [
+            "/images/products/candle.png"
+          ],
+          "qty": 1
+        },
+        {
+          "id": 2,
+          "title": "Масляный фильтр Mann W 712/52",
+          "price": 12.5,
+          "images": [
+            "/images/products/oilfil.jpg"
+          ],
+          "qty": 1
+        }
+      ],
+      "coupon": null,
+      "subtotal": 39.3,
+      "discount": 0,
+      "total": 39.3,
+      "createdAt": "2025-09-08T15:48:59.611Z",
+      "status": "created",
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Demo User",
+      "email": "demo@autoparts.local"
+    }
+  ],
+  "cart": []
+}
